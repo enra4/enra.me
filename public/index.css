@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body {
+	background-color: #0f111a;
+	color: #d5dae8;
+	font-family: 'Work Sans', sans-serif;
+}
+
+a:-webkit-any-link {
+	color: #d5dae8;
+	padding: 0;
+	text-decoration: none;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 900px;
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 6%;
+	text-align: center;
+}
+
+.introduction {
+	grid-row: 1;
+}
+
+.introduction a {
+	font-size: 25px;
+	color: #d5dae8;
+}
+
+.introduction a:hover {
+	color: #edf1ff;
+}
+
+.introduction h1 {
+	font-size: 70px;
+	font-weight: normal;
+	margin: 0;
+	color: #e25822;
+}
+
+#avatar {
+	width: 70px;
+	height: 70px;
+}
+
+.icons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 15px;
+}
+
+.projects {
+	margin-top: 100px;
+	grid-row: 2;
+	display: grid;
+	grid-template-columns: 868px 32px;
+}
+
+.projects svg {
+	color: #703faf;
+}
+
+.project {
+	text-align: left;
+}
+
+.projects a {
+	line-height: 50px;
+}
+
+.project h1 {
+	color: #0095ff;
+	display: inline;
+	margin-left: 10px;
+}
+
+.project h3 {
+	display: inline;
+	margin-left: 10px;
+}
+
+.project span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}
+
+.projects svg {
+	vertical-align: middle;
+}
+
+.projects svg:hover {
+	color: #9f63ed;
+}
+
+.message {
+	margin-top: 50px;
+}
+
+.message a {
+	color: #87d3f8;
+}
+
+.message a:hover {
+	text-decoration: underline;
+}
