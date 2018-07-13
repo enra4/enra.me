@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 body {
+	margin: 0;
 	background-color: #0f111a;
 	color: #d5dae8;
 	font-family: 'Work Sans', sans-serif;
@@ -127,7 +128,7 @@ a:-webkit-any-link {
 
 	.projects {
 		margin: 0 auto;
-		width: 60%;
+		width: 550px;
 		grid-template-columns: 100%;
 	}
 
@@ -165,43 +166,7 @@ a:-webkit-any-link {
 	}
 }
 
-@media screen and (max-width: 850px) {
-	.projects {
-		width: 65%;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	.projects {
-		width: 70%;
-	}
-}
-
-@media screen and (max-width: 750px) {
-	.projects {
-		width: 75%;
-	}
-}
-
-@media screen and (max-width: 700px) {
-	.projects {
-		width: 80%;
-	}
-}
-
-@media screen and (max-width: 650px) {
-	.projects {
-		width: 85%;
-	}
-}
-
 @media screen and (max-width: 600px) {
-	.projects {
-		width: 90%;
-	}
-}
-
-@media screen and (max-width: 550px) {
 	.projects {
 		width: 95%;
 	}
