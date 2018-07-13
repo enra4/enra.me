@@ -61,6 +61,11 @@ a:-webkit-any-link {
 
 .projects svg {
 	color: #703faf;
+	vertical-align: middle;
+}
+
+.projects svg:hover {
+	color: #9f63ed;
 }
 
 .project {
@@ -89,12 +94,12 @@ a:-webkit-any-link {
 	border-radius: 50%;
 }
 
-.projects svg {
-	vertical-align: middle;
-}
-
-.projects svg:hover {
-	color: #9f63ed;
+.mobile-github {
+	display: inline-block;
+	line-height: 50px;
+	width: 0;
+	height: 0;
+	visibility: hidden;
 }
 
 .message {
@@ -107,4 +112,97 @@ a:-webkit-any-link {
 
 .message a:hover {
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+	.main {
+		width: 100%;
+		grid-template-columns: 100%;
+	}
+
+	.icons {
+		grid-template-columns: 1fr;
+		grid-template-rows: 50px 50px 50px;
+	}
+
+	.projects {
+		margin: 0 auto;
+		width: 60%;
+		grid-template-columns: 100%;
+	}
+
+	.projects a {
+		text-align: left;
+		margin-bottom: 5px;
+	}
+
+	.projects h3 {
+		width: 100%;
+		display: block;
+		line-height: 28px;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 22px;
+	}
+
+	.projects svg {
+		margin-left: 10px;
+		vertical-align: baseline;
+	}
+
+	.projects a {
+		width: 100%;
+	}
+
+	.mobile-github {
+		visibility: visible;
+	}
+
+	.normal-github {
+		width: 0;
+		height: 0;
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.projects {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.projects {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.projects {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.projects {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.projects {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.projects {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.projects {
+		width: 95%;
+	}
 }
