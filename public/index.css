@@ -7,6 +7,12 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 
+a {
+	color: #d5dae8;
+	padding: 0;
+	text-decoration: none;
+}
+
 a:-webkit-any-link {
 	color: #d5dae8;
 	padding: 0;
