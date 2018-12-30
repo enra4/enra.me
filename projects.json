@@ -7,13 +7,6 @@
 		"link": "https://github.com/enra4/crystalmethlabs"
 	},
 	{
-		"name": "mdpaste",
-		"description": "web application for writing and sharing markdown",
-		"language": "JavaScript",
-		"languageColour": "#f1e05a",
-		"link": "https://github.com/enra4/mdpaste"
-	},
-	{
 		"name": "truerandom",
 		"description": "unofficial api wrapper for random.org",
 		"language": "Crystal",
